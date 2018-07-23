@@ -1,0 +1,54 @@
+* /home/marten/Mixer/Mixer.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat Jul 21 05:45:41 2018
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+R5  Net-_C1-Pad1_ Net-_C1-Pad2_ 100k		
+RV2  Net-_C4-Pad2_ Net-_R2-Pad1_ Net-_C3-Pad2_ 47k		
+U1  Net-_C1-Pad1_ Net-_C1-Pad2_ GND -12VA GND Net-_C2-Pad2_ Net-_C2-Pad1_ Net-_C3-Pad1_ Net-_C3-Pad2_ GND +12VA GND Net-_C4-Pad2_ Net-_C4-Pad1_ TL074		
+R6  Net-_C2-Pad1_ Net-_C2-Pad2_ 100k		
+R7  Net-_C2-Pad2_ Net-_C1-Pad1_ 100k		
+RV1  Net-_C2-Pad2_ Net-_R1-Pad1_ Net-_C1-Pad2_ 47k		
+R8  Net-_J4-Pad1_ Net-_C2-Pad1_ 1k		
+C1  Net-_C1-Pad1_ Net-_C1-Pad2_ 47p		
+C2  Net-_C2-Pad1_ Net-_C2-Pad2_ 47p		
+R13  Net-_C3-Pad1_ Net-_C3-Pad2_ 100k		
+R14  Net-_C4-Pad1_ Net-_C4-Pad2_ 100k		
+R16  Net-_C4-Pad2_ Net-_C3-Pad1_ 100k		
+R17  Net-_J7-Pad1_ Net-_C4-Pad1_ 1k		
+C3  Net-_C3-Pad1_ Net-_C3-Pad2_ 47p		
+C4  Net-_C4-Pad1_ Net-_C4-Pad2_ 47p		
+J1  Net-_J1-Pad1_ GND ? Audio-Jack-2_Switch		
+R2  Net-_R2-Pad1_ Net-_J1-Pad1_ 100k		
+R1  Net-_R1-Pad1_ Net-_J1-Pad1_ 100k		
+RV4  Net-_C4-Pad2_ Net-_R4-Pad1_ Net-_C3-Pad2_ 47k		
+RV3  Net-_C2-Pad2_ Net-_R3-Pad1_ Net-_C1-Pad2_ 47k		
+J3  Net-_J3-Pad1_ GND ? Audio-Jack-2_Switch		
+R4  Net-_R4-Pad1_ Net-_J3-Pad1_ 100k		
+R3  Net-_R3-Pad1_ Net-_J3-Pad1_ 100k		
+RV6  Net-_C4-Pad2_ Net-_R11-Pad1_ Net-_C3-Pad2_ 47k		
+RV5  Net-_C2-Pad2_ Net-_R9-Pad1_ Net-_C1-Pad2_ 47k		
+J5  Net-_J5-Pad1_ GND ? Audio-Jack-2_Switch		
+R11  Net-_R11-Pad1_ Net-_J5-Pad1_ 100k		
+R9  Net-_R9-Pad1_ Net-_J5-Pad1_ 100k		
+RV8  Net-_C4-Pad2_ Net-_R15-Pad1_ Net-_C3-Pad2_ 47k		
+RV7  Net-_C2-Pad2_ Net-_R12-Pad1_ Net-_C1-Pad2_ 47k		
+J6  Net-_J6-Pad1_ GND ? Audio-Jack-2_Switch		
+R15  Net-_R15-Pad1_ Net-_J6-Pad1_ 100k		
+R12  Net-_R12-Pad1_ Net-_J6-Pad1_ 100k		
+J4  Net-_J4-Pad1_ GND ? Audio-Jack-2_Switch		
+J7  Net-_J7-Pad1_ GND ? Audio-Jack-2_Switch		
+R10  Net-_C2-Pad1_ GND 100k		
+R18  Net-_C4-Pad1_ GND 100k		
+D1  +12VA Net-_D1-Pad2_ DFLR1400-7		
+D2  Net-_D2-Pad1_ -12VA DFLR1400-7		
+J2  Net-_D1-Pad2_ Net-_D1-Pad2_ GND GND GND GND Net-_D2-Pad1_ Net-_D2-Pad1_ Conn_02x04_Odd_Even		
+C5  +12VA GND 100n		
+C7  GND -12VA 100n		
+C6  +12VA GND 10u		
+C8  GND -12VA 10u		
+
+.end
