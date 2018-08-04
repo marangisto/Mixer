@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Mixer-rescue)(type Legacy)(uri ${KIPRJMOD}/Mixer-rescue.lib)(options "")(descr ""))
+)
